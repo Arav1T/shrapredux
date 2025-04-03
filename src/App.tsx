@@ -7,6 +7,8 @@ import Product from "./main/Product"
 
 function App() {
   const onShow = useSelector(state=>state.uiSlice.onShow)
+  console.log("onshow", onShow);
+  
   return (
     <>
       <Navbar/>
